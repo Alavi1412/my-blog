@@ -11,9 +11,11 @@
    ========================================================================== */
 
 html {
+    background-color: #c2c2c2;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    padding: 5%;
 }
 
 /*
@@ -289,3 +291,53 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+a:active {
+    color: orange;
+}
+
+a:hover {
+    color: black;
+}
+
+.posts {
+    width: 65%;
+    float: right;
+}
+
+.blog-heading{
+    text-align: center;
+    border: black solid 1px;
+    margin-bottom: 2%;
+}
+
+.post {
+    background: #f2f2f2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+}
+
+.links {
+    float: left;
+    background-color: #888888;
+    width: 30%;
+    padding-right: 1%;
+}
+
+.clearfix {
+    clear: both;
+}
+.footer {
+    text-align: center;
+    margin-top: 1%;
+    background-color: cornflowerblue;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/*.links-title {*/
+    /*margin-right: ;*/
+/*}*/
